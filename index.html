@@ -4,6 +4,7 @@
 <head>
 	<!--fa fa icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -197,95 +198,187 @@
 	</div>
 	<!-- End Home Area -->
 	
-	<!-- Start Services Section -->
-	<section class="services-section pt-70 pb-100">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h6>What We Do -</h6>
-						<h2>Our Services</h2>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/commercial.png" alt="svg icon">
-						</div>
-						<h3>Commercial</h3>
-						<p>We provide professional AV/IT/Electrical/Surveillance consultation, design, integration, and installation services for all kinds of commercial establishments</p>
-						<div class="services-btn-link">
-							<a href="commercial.html" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/reseidental.png" alt="svg icon">
-						</div>
-						<h3>Residential</h3>
-						<p>Today a home serves as a multi-faceted entertainment zone. We understand the new age consumer preference and give solutions to all kinds of home spaces</p>
-						<div class="services-btn-link">
-							<a href="residental.html" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/events.png" alt="svg icon">
-						</div>
-						<h3>Events</h3>
-						<p>
-							We have an extensive inventory of rental sound system, lights, visual, and stage equipment to cater to all kinds of events. Our team of experts ensures that your event is an outstanding success</p>
-						<div class="services-btn-link">
-							<a href="event.html" class="services-link">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/sales.png" alt="svg icon">
-						</div>
-						<h3>Sales</h3>
-						<p>We are proud to associate with over 50+ world’s leading brands that sell professional audio, video, musical equipment, cables, and connectors. We guarantee the best prices in the market</p>
-						<div class="services-btn-link">
-							<!-- <a href="#" class="services-link">Read More</a> -->
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/maintenance.png" alt="svg icon">
-						</div>
-						<h3>Maintainace & Services</h3>
-						<p>We offers reliable AV support and maintenance, including technical assistance, routine checks, software updates, and staff training to ensure your systems run smoothly and efficiently. Always here to keep your technology performing</p>
-						<div class="services-btn-link">
-							<!-- <a href="#" class="services-link">Read More</a> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services-item">
-						<div class="services-icon">
-							<img src="svg/music.png" alt="svg icon">
-						</div>
-						<h3>Music Management</h3>
-						<p>Music has the power to transform a dull place into a lively one. We provide licensed music solutions to bars, cafes, hotels, gyms, co-working spaces, corporate offices, and retail outlets that tap the taste of your customers and complement the aesthetics of your space</p>
-						<div class="services-btn-link">
-							<!-- <a href="#" class="services-link">Read More</a> -->
-						</div>
-					</div>
-				</div>
-			</div>
+<style>
+/* Colorful FontAwesome icons */
+.colorful-icon {
+  font-size: 25px;
+  color: #ff6347; /* Tomato red */
+  transition: color 0.3s ease;
+}
+
+.colorful-icon:hover {
+  color: #007bff; /* Blue when hovered */
+}
+
+/* Example for specific services */
+.fa-building {
+  color: #28a745; /* Green for commercial */
+}
+
+.fa-home {
+  color: #ffc107; /* Yellow for residential */
+}
+
+.fa-calendar-check {
+  color: #17a2b8; /* Cyan for events */
+}
+
+.fa-cogs {
+  color: #6c757d; /* Gray for sales */
+}
+
+.fa-wrench {
+  color: #dc3545; /* Red for maintenance */
+}
+
+.fa-music {
+  color: #6610f2; /* Purple for music */
+}
+
+.fa-gear {
+  color: #bbbbbb; /* Light color for AMCs */
+}
+
+.fa-laptop {
+  color: #343a40; /* Dark color for 8x5 NBD support */
+}
+
+.fa-search {
+  color: #ff5733; /* Orange for performance audits */
+}
+
+</style>
+
+
+
+<!-- Start Services Section -->
+<section class="services-section pt-70 pb-100">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-12">
+		  <div class="section-title">
+			<h6>What We Do -</h6>
+			<h2>Our Services</h2>
+		  </div>
 		</div>
-	</section>
-	<!-- End Services Section -->
-	 
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-building colorful-icon"></i>
+			</div>
+			<h3>Commercial</h3>
+			<p>We provide professional AV/IT/Electrical/Surveillance consultation, design, integration, and installation services for all kinds of commercial establishments</p>
+			<div class="services-btn-link">
+			  <a href="commercial.html" class="services-link">Read More</a>
+			</div>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-home colorful-icon"></i>
+			</div>
+			<h3>Residential</h3>
+			<p>Today a home serves as a multi-faceted entertainment zone. We understand the new age consumer preference and give solutions to all kinds of home spaces</p>
+			<div class="services-btn-link">
+			  <a href="residental.html" class="services-link">Read More</a>
+			</div>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-calendar-check colorful-icon"></i>
+			</div>
+			<h3>Events</h3>
+			<p>We have an extensive inventory of rental sound system, lights, visual, and stage equipment to cater to all kinds of events. Our team of experts ensures that your event is an outstanding success</p>
+			<div class="services-btn-link">
+			  <a href="event.html" class="services-link">Read More</a>
+			</div>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-cogs colorful-icon"></i>
+			</div>
+			<h3>Sales</h3>
+			<p>We are proud to associate with over 50+ world’s leading brands that sell professional audio, video, musical equipment, cables, and connectors. We guarantee the best prices in the market</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-wrench colorful-icon"></i>
+			</div>
+			<h3>Maintenance & Services</h3>
+			<p>We offer reliable AV support and maintenance, including technical assistance, routine checks, software updates, and staff training to ensure your systems run smoothly and efficiently. Always here to keep your technology performing</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-music colorful-icon"></i>
+			</div>
+			<h3>Music Management</h3>
+			<p>Music has the power to transform a dull place into a lively one. We provide licensed music solutions to bars, cafes, hotels, gyms, co-working spaces, corporate offices, and retail outlets that tap the taste of your customers and complement the aesthetics of your space</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+  
+		<!-- New Services -->
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-gear colorful-icon"></i>
+			</div>
+			<h3>Annual Maintenance (AMCs)</h3>
+			<p>After building and supporting meeting and control infrastructure over the last two decades, we realize that support requirements can vary considerably. Our support plans provide you the flexibility to choose a level of support that matches your specific needs.</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+  
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-laptop colorful-icon"></i>
+			</div>
+			<h3>Remote and Onsite 8x5 NBD Support</h3>
+			<p>For businesses that may require quicker support response for critical applications or infrastructure, we offer 8×5 next business day support — either onsite or remotely.</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+  
+		<div class="col-lg-4 col-md-6">
+		  <div class="single-services-item">
+			<div class="services-icon">
+			  <i class="fa fa-search colorful-icon"></i>
+			</div>
+			<h3>Performance Audits and Recommendations</h3>
+			<p>Keeping new infrastructure working smoothly requires regular monitoring of various aspects of its performance. Our team supports you with performance audits to identify potential problems before they affect users and make recommendations for improvement.</p>
+			<div class="services-btn-link">
+			  <!-- <a href="#" class="services-link">Read More</a> -->
+			</div>
+		  </div>
+		</div>
+  
+	  </div>
+	</div>
+  </section>
+  <!-- End Services Section -->
+  
 	
 	<!-- Start Overview Section -->
 	<section class="overview-section bg-grey section-padding">

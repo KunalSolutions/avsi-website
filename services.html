@@ -521,11 +521,7 @@
 	  });
 	}
   </script>
-  
-		
-		
-		
-		  
+  	  
 		<style>
 			* {
 		margin: 0;
@@ -614,6 +610,159 @@
 	
 		</style>
 	
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<style>
+			
+			.commercial-av-it-services {
+				background-color: #ffffff;
+				color: #1D1A71;
+			}
+			.section-title h3 {
+				color: #333;
+				font-weight: bold;
+			}
+			.single-service-item {
+				background: #1D1A71;
+				color: rgb(253, 253, 253);
+				border-radius: 10px;
+				padding: 20px;
+				box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+				margin-bottom: 20px;
+				transition: transform 0.3s;
+			}
+			.single-service-item:hover {
+				transform: scale(1.05);
+			}
+			.single-service-item h4 {
+				color: #faf9f8;
+				cursor: pointer;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 20px;
+			}
+			.single-service-item ul {
+				padding-left: 20px;
+				list-style: none;
+				display: none;
+			}
+			.single-service-item ul li {
+				padding: 5px 0;
+				font-size: 16px;
+			}
+			.single-service-item ul li i {
+				margin-right: 8px;
+				color: #f1960c;
+			}
+			.single-service-item.active ul {
+				display: block;
+			}
+		</style>
+	</head>
+	
+<!-- Start Commercial AV/IT Services Section -->
+<section class="commercial-av-it-services pt-70 pb-100">
+    <div class="container">
+        <div class="row">
+
+            <!-- Our Commercial Services -->
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h3>Experience the Best in Commercial AV/IT Solutions</h3>
+                </div>
+            </div>
+
+            <!-- Audio Solutions -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service-item">
+                    <h4><span>Audio Solutions</span> <i class="fa-solid fa-plus"></i></h4>
+                    <ul>
+                        <li><i class="fas fa-volume-up"></i> <strong>Crystal-Clear Sound:</strong> Professional Sound System Installation</li>
+                        <li><i class="fas fa-users"></i> <strong>Seamless Meetings:</strong> Conference Room & Boardroom Audio Setup</li>
+                        <li><i class="fas fa-broadcast-tower"></i> <strong>Powerful Coverage:</strong> Distributed Audio for Large-Scale Venues</li>
+                        <li><i class="fas fa-wave-square"></i> <strong>Noise-Free Zones:</strong> Acoustic Treatment & Noise Cancellation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Visual & Display Solutions -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service-item">
+                    <h4><span>Visual & Display Solutions</span> <i class="fa-solid fa-plus"></i></h4>
+                    <ul>
+                        <li><i class="fas fa-tv"></i> <strong>Vibrant Displays:</strong> LED Video Walls & Large-Format Screens</li>
+                        <li><i class="fas fa-projector"></i> <strong>Interactive Presentations:</strong> Projection & Smart Screens</li>
+                        <li><i class="fas fa-sign"></i> <strong>Engaging Signage:</strong> Digital Signage & Wayfinding Solutions</li>
+                        <li><i class="fas fa-desktop"></i> <strong>Ultra HD Quality:</strong> 4K/8K UHD Commercial Displays</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Video Conferencing & Collaboration -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service-item">
+                    <h4><span>Video Conferencing</span> <i class="fa-solid fa-plus"></i></h4>
+                    <ul>
+                        <li><i class="fas fa-video"></i> <strong>Smart Meetings:</strong> Unified Communications (Zoom, Teams, Webex)</li>
+                        <li><i class="fas fa-laptop"></i> <strong>Wireless Presentations:</strong> BYOD & Instant Screen Sharing</li>
+                        <li><i class="fas fa-camera"></i> <strong>Intelligent Tracking:</strong> PTZ Cameras & Auto-Tracking Tech</li>
+                        <li><i class="fas fa-microchip"></i> <strong>AI-Driven Enhancements:</strong> Next-Level Meeting Room Features</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Corporate & Enterprise -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service-item">
+                    <h4><span>Corporate & Enterprise</span> <i class="fa-solid fa-plus"></i></h4>
+                    <ul>
+                        <li><i class="fas fa-building"></i> <strong>Smart Boardrooms:</strong> Conference Room Automation</li>
+                        <li><i class="fas fa-briefcase"></i> <strong>Seamless Communication:</strong> Enterprise-Grade AV Solutions</li>
+                        <li><i class="fas fa-chalkboard"></i> <strong>Next-Gen Meetings:</strong> Interactive Whiteboards & Displays</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hospitality & Retail -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-service-item">
+                    <h4><span>Hospitality & Retail</span> <i class="fa-solid fa-plus"></i></h4>
+                    <ul>
+                        <li><i class="fas fa-ad"></i> <strong>Dynamic Displays:</strong> Digital Signage & Video Ads</li>
+                        <li><i class="fas fa-store"></i> <strong>Smart Retail:</strong> Interactive Kiosks for Customer Engagement</li>
+                        <li><i class="fas fa-music"></i> <strong>Immersive Experience:</strong> Background Music Systems</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Commercial AV/IT Services Section -->
+
+	
+	<script>
+		$(document).ready(function() {
+			$(".single-service-item h4").click(function() {
+				// Close all other sections
+				$(".single-service-item ul").not($(this).next()).slideUp();
+				$(".single-service-item h4").not(this).removeClass("active").find("i").removeClass("fa-minus").addClass("fa-plus");
+	
+				// Toggle the clicked section
+				$(this).next("ul").slideToggle();
+				$(this).toggleClass("active");
+				$(this).find("i").toggleClass("fa-plus fa-minus");
+			});
+		});
+	</script>
+	
+
+
+
+
+
 	<!-- Start Overview Section -->
 	<section class="overview-section bg-grey section-padding">
 		<div class="container">

@@ -5,6 +5,9 @@
 	<!--fa fa icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<!-- Bootstrap 5 CSS and JS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -37,6 +40,7 @@
 </head>
 
 <body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Start Preloader Area -->
 	<div class="preloader">
@@ -54,7 +58,7 @@
 	<!-- End Preloader Area -->
 	
 	<!-- Start Navbar Area -->
-<div class="navbar-area">
+<div class="navbar-area" style="background: white;">
     <div class="elevate-responsive-nav index-navber-responsive">
         <div class="container">
             <div class="elevate-responsive-menu">
@@ -74,143 +78,124 @@
 				</a>
 				
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"> 
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">About Us</a>
-                        </li>
-                        <li class="nav-item">
-							<a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
-							<ul class="dropdown-menu" style="display: flex; gap: 10px; padding: 0px;">
-								<div style="display: flex; flex-direction: column;">
-									<li class="nav-item">
-										<a href="commercial.html" class="nav-link">Commercial</a>
-									</li>
-									<li class="nav-item">
-										<a href="residental.html" class="nav-link">Residential</a>
-									</li>
-									<li class="nav-item">
-										<a href="event.html" class="nav-link">Events</a>
-									</li>
-								</div>
-								<div style="display: flex; flex-direction: column;">
-									<li class="nav-item">
-										<a href="eduction.html" class="nav-link">Education</a>
-									</li>
-									<li class="nav-item">
-										<a href="Hostpital.html" class="nav-link">Hospital</a>
-									</li>
-									<li class="nav-item">
-										<a href="IT.html" class="nav-link">IT Services</a>
-									</li>
-								</div>
-							</ul>
-						</li>
-                        
-
-						<li class="nav-item">
-                            <a href="solution.html" class="nav-link">Solutions <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <!-- <li class="nav-item"> 
-                                    <a href="commercial.html" class="nav-link">Auditorium</a>
-                                </li>
-                                <li class="nav-item"> 
-                                    <a href="residental.html" class="nav-link">Confernce room</a>
-                                </li>
-                                <li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Meeting Rooms</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">LED Wall</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Training room</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Learning center</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Room control systems</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Video onferncing</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Wireless Presentation</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="event.html" class="nav-link">Meeting Rooms</a>
-                                </li> -->
-                            </ul>
-                        </li>
+                   <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="index.html" style="color: #2E3192;" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="about.html" style="color: #ED1C24;" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="services.html" style="color: #F7941D;" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu" style="display: flex; gap: 10px; padding: 0px;">
+                <div style="display: flex; flex-direction: column;">
+                    <li class="nav-item">
+                        <a href="commercial.html" style="color: #2E3192;" class="nav-link">Commercial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="residental.html" style="color: #ED1C24;" class="nav-link">Residential</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="event.html" style="color: #1B1464;" class="nav-link">Events</a>
+                    </li>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <li class="nav-item">
+                        <a href="eduction.html" style="color: #39B54A;" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Hostpital.html" style="color: #F7941D;" class="nav-link">Hospital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="IT.html" style="color: #2E3192;" class="nav-link">IT Services</a>
+                    </li>
+                </div>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="solution.html" style="color: #39B54A;" class="nav-link">Solutions <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+                <!-- Your solution sub-menu goes here -->
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="Product.html" style="color: #ED1C24;" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+            <a href="project.html" style="color: #F7941D;" class="nav-link">Projects </i></a>
+            
+        </li>
+        <li class="nav-item">
+            <a href="carrer.html" style="color: #39B54A;" class="nav-link">Careers</a>
+        </li>
+        <li class="nav-item">
+            <a href="contact.html" style="color: #F7941D;" class="nav-link">Connect</a>
+        </li>
+    </ul>
 
 
-						<li class="nav-item">
-                            <a href="project.html" class="nav-link">Projects <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"> 
-                                    <a href="project.html" class="nav-link">2024</a>
-                                </li>
-                                <li class="nav-item"> 
-                                    <a href="project.html" class="nav-link">2023</a>
-                                </li>
-                                <li class="nav-item"> 
-                                    <a href="project.html" class="nav-link">2022</a>
-                                </li>
-								<li class="nav-item"> 
-                                    <a href="project.html" class="nav-link">2021</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="carrer.html" class="nav-link">Careers</a>
-                        </li>
-                    </ul>
-                    <div class="other-option">
-                        <a class="default-btn" href="contact.html">Contact Us<span></span></a>
-                    </div>
+             	<div class="social-icons" style="margin-left: auto; display: flex; gap: 15px; align-items: center;">
+					<a href="https://www.facebook.com/AVSITechnologies" target="_blank" style="color: #1877F2; font-size: 20px;">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="https://www.instagram.com/avsitechnologies/" target="_blank" style="color: #E4405F; font-size: 20px;">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="https://in.linkedin.com/company/avsitechnologies" target="_blank" style="color: #0077B5; font-size: 20px;">
+						<i class="fab fa-linkedin"></i>
+					</a>
+					<a href="https://www.youtube.com/channel/UCoxw1_ttEGxRaCY0HxoLLlg" target="_blank" style="color: #FF0000; font-size: 20px;">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</div>			
                 </div>
             </nav>
         </div>
+		
     </div>
 </div>
 <!-- End Navbar Area -->
 
-	
-	<!-- Start Home Area -->
-	<div class="home-area" style="background: url('BG.avif') ; background-size: cover; ">
-		<div class="d-table">
-			<div class="d-table-cell">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 col-md-12">
-							<div class="main-banner-content">
-								<h1>Empowering Your Business with Tailored AV & <span>IT Solutions</span></h1>
-								<p>We offers customized audio-visual, IT, and surveillance solutions, ensuring seamless integration and performance to meet your business needs.</p>
-								<div class="banner-btn">
-									<a href="about.html" class="default-btn">
-                                        Learn More <span></span>
-                                    </a>
-									<a href="contact.html" class=" default-btn-one">
-                                        Contact Us <span></span>
-                                    </a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12">
-							<div class="banner-image">
-								<img src="home-font.png" alt="image">
-							</div>
-                        </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Home Area -->
-	
+
+<style>
+	.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-outline-light:hover {
+  background-color: #F7931E;
+  color: white !important;
+  border-color: #F7931E;
+}
+
+</style>
+<!-- Start Home Area -->
+<div id="homeCarousel" class="carousel slide home-area" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="padding: 50px 5px; height: 97vh;">
+      <img src="https://www.avsi.in/footer/Interior%20Design_Mesa%20de%20trabajo%201.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item" style="padding: 50px 5px; height: 97vh">
+      <img src="https://www.avsi.in/footer/Information%20Technology-01.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item" style="padding: 50px 5px; height: 97vh">
+      <img src="https://www.avsi.in/footer/Digital%20marketing-01.jpg" class="d-block w-100" alt="Slide 3">
+    </div>
+    <div class="carousel-item" style="padding: 50px 5px; height: 97vh">
+      <img src="https://www.avsi.in/footer/Audio%20Visual-01.jpg" class="d-block w-100" alt="Slide 4">
+    </div>
+    <div class="carousel-item" style="padding: 50px 5px; height: 97vh">
+      <img src="https://www.avsi.in/footer/MSEB%20Electrical-01.jpg" class="d-block w-100" alt="Slide 5">
+    </div>
+    <div class="carousel-item" style="padding: 50px 5px; height: 97vh">
+      <img src="https://www.avsi.in/footer/Surveillance%20System-01.jpg" class="d-block w-100" alt="Slide 6">
+    </div>
+  </div>
+</div>
+<!-- End Home Area -->
+
+
 <style>
 /* Colorful FontAwesome icons */
 .colorful-icon {
@@ -263,8 +248,156 @@
 </style>
 
 
+<div class="container">
+  <div class="col-md-12">
+    <div class="section-title">
+      <h6 style="color: #d62828;">Solutions We Provide</h6>
+    </div>
+  </div>
+  <div class="row logo-colored-gallery">
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/d7/dd/8f/d7dd8f87d0447e174c1ea5df919c9533.jpg" alt="Display & Projection" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #1f1c6d;">
+          <h5>Collaboration Hubs</h5>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/25/06/98/25069881df0ab83720051f689e286838.jpg" alt="Audio Solutions" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #3a9f3a;">
+          <h5>Video Conferencing</h5>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/5b/eb/4a/5beb4ab7b1154faa6a65079e0b3924a0.jpg" alt="Automation" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #f8991d;">
+          <h5>Control Centers</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/d2/38/22/d238225673c0f4f9105789a90c8bcca9.jpg" alt="Video Conferencing" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #302a86;">
+          <h5>Smart Surveillance</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/e6/2e/85/e62e85b334f96f87080689da633afe11.jpg" alt="Streaming" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #d62828;">
+          <h5>Digital Signage</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="blog-single-item">
+        <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/a9/0c/34/a90c34a684b1a85781c5364416e4fb5c.jpg" alt="Digital Signage" style="width: 100%; height: 150px; object-fit: cover;">
+        </div>
+        <div class="blog-content" style="color: #3a9f3a;">
+          <h5>Automation Systems</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+	/* Section Title */
+.section-title h6 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d62828; /* Red from logo */
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Blog item container */
+.blog-single-item {
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fdfdfd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-single-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Blog image */
+.blog-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Blog content */
+.blog-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* Color palette (from AVSI logo) */
+.blog-content h5:nth-child(1) { color: #1f1c6d; } /* Blue */
+.blog-content h5:nth-child(2) { color: #d62828; } /* Red */
+.blog-content h5:nth-child(3) { color: #3a9f3a; } /* Green */
+.blog-content h5:nth-child(4) { color: #f8991d; } /* Orange */
+.blog-content h5:nth-child(5) { color: #302a86; } /* Dark Blue */
+.blog-content h5:nth-child(6) { color: #3a9f3a; } /* Green again */
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  .col-lg-2 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-lg-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-lg-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+</style>
 
 <!-- Start Services Section -->
 <section class="services-section pt-70 pb-100">
@@ -719,7 +852,68 @@
 	<!-- End Overview Section -->
 	
 	
-		
+		<div class="blog-section section-padding" >
+    <div class="container">
+        <div class="col-md-12">
+            <div class="section-title">
+                <h6>OUR Videos</h6>
+            </div>
+        </div>
+        
+        <!-- Video Section -->
+        <div class="row" style="justify-content: center;">
+            <div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/MAIN.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+			<div class="col-lg-6 col-md-6">
+                <div class="video-wrapper text-center">
+                    <video width="100%" controls>
+                        <source src="videos/5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 	
 	<!-- Start Hire Section -->
